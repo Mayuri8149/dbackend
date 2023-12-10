@@ -1,0 +1,45 @@
+[
+    {
+        "recordId": "1",
+        "flag": "Add",
+        "organizationId" : "5f3d206c415fa50e3cef3eea",
+        "affiliateId" : "5f337578f9704c37985aae76",
+        "departmentId" : "5f3d24203547713a1012633d",
+        "moduleId" : "5f3d2acd3547713a10126354",
+        "batchId" : "5f3d3527230dee3a5cc662e3",
+        "transactiontypeId" : "5f3d2e133547713a10126357",
+        "Name": "Neha",
+        "Father Name": "Prashant",
+        "DOB": "21/12/1993",
+        "Year of Completion": "2020",
+        "Seat No": "1001",
+        "transactionId": "",
+        "fileHash": "16412607828965fa333d6203a1baff2d",
+        "filePath": "/transactions/5eedfd6016b2cd00114fd5ee.pdf",
+        "partnerName": "Neha",
+        "partnerEmail": "neha@gmail.com",
+        "partnerPhone": "8097368244"
+    },
+    {
+        "recordId": "2",
+        "flag": "Add",
+        "organizationId" : "5f3d206c415fa50e3cef3eea",
+        "affiliateId" : "5f337578f9704c37985aae76",
+        "departmentId" : "5f3d24203547713a1012633d",
+        "moduleId" : "5f3d2acd3547713a10126354",
+        "batchId" : "5f3d3527230dee3a5cc662e3",
+        "transactiontypeId" : "5f3d2e133547713a10126357",
+        "Name": "Shihas",
+        "Father Name": "HI",
+        "DOB": "09/06/1993",
+        "Year of Completion": "2020",
+        "Seat No": "1002",
+        "transactionId": "",
+        "fileHash": "16412607828965fa333d6203a1baff2d",
+        "filePath": "/transactions/5eedfd6016b2cd00114fd5ee.pdf",
+        "partnerName": "Shihas",
+        "partnerEmail": "shihas@gmail.com",
+        "partnerPhone": "9022057986"
+    }
+]
+        
