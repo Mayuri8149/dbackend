@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: snapperfuturetechmasterapi 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: snapperfuturetechmasterapi
+  template:
+    metadata:
+      labels:
+        app: snapperfuturetechmasterapi 
+    spec:
+      containers:
+        - name: snapperfuturetechmasterapi 
+          image: snapcert.azurecr.io/snapperfuturetechmasterapi
+          ports:
+          - containerPort: 3000
