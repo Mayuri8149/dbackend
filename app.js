@@ -18,8 +18,10 @@ const swaggerUI = require("swagger-ui-express");
 const swaggerDocument = require('./swagger.json');
 
 if(process.env.NODE_ENV == 'production'){
+  console.log('ifffff')
   global.config = require('./config/prod')
 }else{
+  console.log('elseeeee')
   global.config = require('./config/dev')
 }
 var temporaryV8 = v8.getHeapStatistics();
@@ -34,6 +36,7 @@ var generateErrorObject = (param, msg, value, location) => {
 var app = express();
 
 mongoose.Promise = global.Promise;
+console.log('global.config.MONGODB_URI',global.config.MONGODB_URI)
 mongoose.connect(global.config.MONGODB_URI, { useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true,useCreateIndex: true }).then(() => {
     console.log('DB connection successful');
 }).catch((err) => console.error(err));
